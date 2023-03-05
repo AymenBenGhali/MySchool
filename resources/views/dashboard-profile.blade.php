@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar">
 
-    <head>
+    <head >
         
         <meta charset="utf-8" />
         <title>Profile - MAWJA</title>
@@ -9,14 +9,14 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/favicon.ico" >
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+       <!-- Icons Css -->
+       <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+       <!-- App Css-->
+       <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -28,26 +28,26 @@
         <div id="layout-wrapper">
 
             
-            <header id="page-topbar">
+            {{-- <header id="page-topbar">
                 <div class="navbar-header">
                     <div class="d-flex">
-                        <!-- LOGO -->
-                        <div class="navbar-brand-box">
+                       
+                        <div class="navbar-brand-box" style="background: white">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo.svg" alt="" height="22">
+                                    <img src="\assets\images\logo.png" alt="" height="40">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-dark.png" alt="" height="17">
+                                    <img src="\assets\images\logo.png" alt="" height="30">
                                 </span>
                             </a>
 
                             <a href="index.html" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-light.svg" alt="" height="22">
+                                    <img src="\assets\images\logo.png" alt="" height="30">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-light.png" alt="" height="50">
+                                    <img src="\assets\images\logo.png" alt="" height="75">
                                 </span>
                             </a>
                         </div>
@@ -197,113 +197,6 @@
                     </div>
 
                     <div class="d-flex">
-
-                        <div class="dropdown d-inline-block d-lg-none ms-2">
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="mdi mdi-magnify"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                                aria-labelledby="page-header-search-dropdown">
-        
-                                <form class="p-3">
-                                    <div class="form-group m-0">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
-                                            <div class="input-group-append">
-                                                <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-end">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
-                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-none d-lg-inline-block ms-1">
-                            <button type="button" class="btn header-item noti-icon waves-effect"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bx bx-customize"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                                <div class="px-lg-2">
-                                    <div class="row g-0">
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/github.png" alt="Github">
-                                                <span>GitHub</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
-                                                <span>Bitbucket</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dribbble.png" alt="dribbble">
-                                                <span>Dribbble</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="row g-0">
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dropbox.png" alt="dropbox">
-                                                <span>Dropbox</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
-                                                <span>Mail Chimp</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/slack.png" alt="slack">
-                                                <span>Slack</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="dropdown d-none d-lg-inline-block ms-1">
                             <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
                                 <i class="bx bx-fullscreen"></i>
@@ -415,7 +308,8 @@
                                 <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
                             </div>
                         </div>
-
+                             {{-- الإعدادات
+                             
                         <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
                                 <i class="bx bx-cog bx-spin"></i>
@@ -424,38 +318,40 @@
 
                     </div>
                 </div>
-            </header>
-
+            </header> --}}
+            <div>
+            <x-share.heder></x-share.heder>
+            </div>
             <!-- ========== Left Sidebar Start ========== -->
-            <div class="vertical-menu">
+            {{-- <div class="vertical-menu" style="background:white; color:black">
 
-                <div data-simplebar class="h-100">
+                <div data-simplebar class="h-100"  style="color:black">
 
                     <!--- Sidemenu -->
-                    <div id="sidebar-menu">
+                    <div id="sidebar-menu" style=" color:black">
                         <!-- Left Menu Start -->
-                        <ul class="metismenu list-unstyled" id="side-menu">
-                            <li class="menu-title" key="t-menu">Menu</li>
+                        <ul class="metismenu list-unstyled" id="side-menu"  style="color:black">
+                            <li class="menu-title" key="t-menu" style="color:black">Menu</li>
 
-                            <li>
+                            <li style="color:black">
                                 <a href="javascript: void(0);" class="waves-effect">
                                     <i class="bx bx-home-circle"></i><span class="badge rounded-pill bg-info float-end">04</span>
-                                    <span key="t-dashboards">Dashboard</span>
+                                    <span key="t-dashboards " style="color:black" >Dashboard</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="dashboard-profile.html" key="t-default">Profile</a></li>
+                                    <li><a href="dashboard-profile.html" key="t-default"  style="color:black">Profile</a></li>
                                 </ul>
                             </li>
 
                             
-                            <li class="menu-title" key="t-apps">Apps</li>
+                            <li class="menu-title" key="t-apps"  style="color:black">Apps</li>
 
                 
 
-                            <li>
+                            <li >
                                 <a href="javascript: void(0);" class="waves-effect">
                                     <i class="bx bx-calendar"></i><span class="badge rounded-pill bg-success float-end">New</span>
-                                    <span key="t-dashboards">Calendars</span>
+                                    <span key="t-dashboards" style="color:black">Calendars</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
                                      <li><a href="calendar-full.html" key="t-full-calendar">Full Calendar</a></li>
@@ -466,17 +362,17 @@
                                 <a href="apps-filemanager.html" class="waves-effect">
                                     <i class="bx bx-file"></i>
                                     <span class="badge rounded-pill bg-success float-end" key="t-new">New</span>
-                                    <span key="t-file-manager">File Manager</span>
+                                    <span key="t-file-manager" style="color:black">File Manager</span>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <a href="" class="has-arrow waves-effect">
                                     <i class="bx bx-store"></i>
-                                    <span key="t-ecommerce">Orders</span>
+                                    <span key="t-ecommerce" style="color:black">Orders</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="add-order.html">Add Order</a></li>
+                                    <li><a href="\tables-editable">Add Order</a></li>
                                     <li><a href="orders.html">Orders</a></li>
                                      <li><a href="order-details.html">Order Details</a></li>
                                      <li><a href="checkout.html">Checkout</a></li>
@@ -488,7 +384,7 @@
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="bx bx-envelope"></i>
-                                    <span key="t-email">Email</span>
+                                    <span key="t-email" style="color:black">Email</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="email-inbox.html" key="t-inbox">Inbox</a></li>
@@ -497,23 +393,14 @@
                                 </ul>
                             </li>
 
-                            <!-- <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-receipt"></i>
-                                    <span key="t-invoices">Invoices</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="invoices-list.html" key="t-invoice-list">Invoice List</a></li>
-                                    <li><a href="invoices-detail.html" key="t-invoice-detail">Invoice Detail</a></li>
-                                </ul>
-                            </li> -->
+                          
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="bx bx-briefcase-alt-2"></i>
-                                    <span key="t-projects">Projects</span>
+                                    <span key="t-projects" style="color:black">Projects</span>
                                 </a>
-                                <ul class="sub-menu" aria-expanded="false">
+                                <ul class="sub-menu" aria-expanded="false" style="color:black">
                                     <li><a href="projects-grid.html" key="t-p-grid">Projects Grid</a></li>
                                     <li><a href="projects-list.html" key="t-p-list">Projects List</a></li>
                                     <li><a href="projects-overview.html" key="t-p-overview">Project Overview</a></li>
@@ -524,9 +411,9 @@
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="bx bx-task"></i>
-                                    <span key="t-tasks">Tasks</span>
+                                    <span key="t-tasks" style="color:black">Tasks</span>
                                 </a>
-                                <ul class="sub-menu" aria-expanded="false">
+                                <ul class="sub-menu" aria-expanded="false" style="color:black">
                                     <li><a href="tasks-list.html" key="t-task-list">Task List</a></li>
                                     <li><a href="tasks-kanban.html" key="t-kanban-board">Kanban Board</a></li>
                                     <li><a href="tasks-create.html" key="t-create-task">Create Task</a></li>
@@ -536,12 +423,11 @@
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="bx bxs-user-detail"></i>
-                                    <span key="t-contacts">Contacts</span>
+                                    <span key="t-contacts" style="color:black">Contacts</span>
                                 </a>
-                                <ul class="sub-menu" aria-expanded="false">
+                                <ul class="sub-menu" aria-expanded="false" style="color:black">
                                     <li><a href="add-member.html">Add new Member</a></li>
                                     <li><a href="contacts-list.html" key="t-user-list">Users List</a></li>
-                                    <!-- <li><a href="contacts-profile.html" key="t-profile">Profile</a></li> -->
                                 </ul>
                             </li>
 
@@ -549,9 +435,9 @@
                                 <a href="javascript: void(0);" class="waves-effect">
                                     <span class="badge rounded-pill bg-success float-end" key="t-new">New</span>
                                     <i class="bx bx-detail"></i>
-                                    <span key="t-blog">Blog</span>
+                                    <span key="t-blog" style="color:black">Blog</span>
                                 </a>
-                                <ul class="sub-menu" aria-expanded="false">
+                                <ul class="sub-menu" aria-expanded="false" style="color:black">
                                     <li><a href="blog-list.html" key="t-blog-list">Blog List</a></li>
                                     <li><a href="blog-grid.html" key="t-blog-grid">Blog Grid</a></li>
                                     <li><a href="blog-details.html" key="t-blog-details">Blog Details</a></li>
@@ -563,6 +449,9 @@
                     </div>
                     <!-- Sidebar -->
                 </div>
+            </div> --}}
+            <div>
+                <x-share.Sidebare></x-share.Sidebare>
             </div>
             <!-- Left Sidebar End -->
 
@@ -571,7 +460,7 @@
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
-            <div class="main-content">
+            <div class="main-content" style="margin-left: -15px">
 
                 <div class="page-content">
                     <div class="container-fluid">
@@ -580,21 +469,21 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Saas</h4>
-
+                                    {{-- <h4 class="mb-sm-0 font-size-18">Saas</h4> --}}
+{{-- 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
                                             <li class="breadcrumb-item active">Saas</li>
                                         </ol>
-                                    </div>
+                                    </div> --}}
 
                                 </div>
                             </div>
                         </div>
                         <!-- end page title -->
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <div class="col-lg-12">
                                 <div class="card">
                                     <div class="card-body">
@@ -602,7 +491,7 @@
                                             <div class="col-lg-4">
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 me-3">
-                                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
+                                                        <img src="C:\laragon\www\MySchool\public\assets\images\logo.png" alt="" class="avatar-md rounded-circle img-thumbnail">
                                                     </div>
                                                     <div class="flex-grow-1 align-self-center">
                                                         <div class="text-muted">
@@ -659,30 +548,30 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- end row -->
 
                         <div class="row">
-                            <div class="col-xl-4">
-                                <div class="card bg-primary bg-soft">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-7">
-                                                <div class="text-primary p-3">
-                                                    <h5 class="text-primary">Welcome Back !</h5>
-                                                    <p>Skote Saas Dashboard</p>
-
-                                                    <ul class="ps-3 mb-0">
-                                                        <li class="py-1">7 + Layouts</li>
-                                                        <li class="py-1">Multiple apps</li>
-                                                    </ul>
-                                                </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="avatar-xs me-3">
+                                                <span class="avatar-title rounded-circle bg-primary bg-soft text-primary font-size-18">
+                                                    <i class="bx bx-purchase-tag-alt"></i>
+                                                </span>
                                             </div>
-                                            <div class="col-5 align-self-end">
-                                                <img src="assets/images/profile-img.png" alt="" class="img-fluid">
+                                            <h5 class="font-size-14 mb-0">Average Price</h5>
+                                        </div>
+                                        <div class="text-muted mt-4">
+                                            <h4>$ 16.2 <i class="mdi mdi-chevron-up ms-1 text-success"></i></h4>
+                                            
+                                            <div class="d-flex">
+                                                <span class="badge badge-soft-warning font-size-12"> 0% </span> <span class="ms-2 text-truncate">From previous period</span>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-8">
@@ -705,8 +594,10 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            
                                         </div>
                                     </div>
+
 
                                     <div class="col-sm-4">
                                         <div class="card">
@@ -748,14 +639,17 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            
                                         </div>
                                     </div>
+                                    
                                 </div>
+                                
                                 <!-- end row -->
                             </div>
                         </div>
 
-                        <div class="row">
+                        {{-- <div class="row">
                             <div class="col-xl-8">
                                 <div class="card">
                                     <div class="card-body">
@@ -837,14 +731,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- end row -->
 
                         <div class="row">
                             <div class="col-xl-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="clearfix">
+                                        {{-- <div class="clearfix">
                                             <div class="float-end">
                                                 <div class="input-group input-group-sm">
                                                     <select class="form-select form-select-sm">
@@ -857,7 +751,7 @@
                                                 </div>
                                             </div>
                                             <h4 class="card-title mb-4">Top Selling product</h4>
-                                        </div>
+                                        </div> --}}
 
                                         <div class="text-muted text-center">
                                             <p class="mb-2">Product A</p>
@@ -944,10 +838,10 @@
                                                                         <label class="form-check-label" for="tasklistCheck01"></label>
                                                                     </div>
                                                                 </td>
-                                                                <td>
+                                                                {{-- <td>
                                                                     <h5 class="text-truncate font-size-14 mb-1"><a href="javascript: void(0);" class="text-dark">Skote Saas Dashboard</a></h5>
                                                                     <p class="text-muted mb-0">Assigned to Mark</p>
-                                                                </td>
+                                                                </td> --}}
                                                                 <td style="width: 90px;">
                                                                     <div>
                                                                         <ul class="list-inline mb-0 font-size-16">
@@ -1092,10 +986,10 @@
                                                                         <label class="form-check-label" for="tasklistCheck07"></label>
                                                                     </div>
                                                                 </td>
-                                                                <td>
+                                                                {{-- <td>
                                                                     <h5 class="text-truncate font-size-14 mb-1"><a href="javascript: void(0);" class="text-dark">Skote Crypto Dashboard</a></h5>
                                                                     <p class="text-muted mb-0">Assigned to Eric</p>
-                                                                </td>
+                                                                </td> --}}
                                                                 <td>
                                                                     <div>
                                                                         <ul class="list-inline mb-0 font-size-16">
@@ -1353,7 +1247,7 @@
                 <!-- End Page-content -->
 
                 
-                <footer class="footer">
+                {{-- <footer class="footer">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
@@ -1366,7 +1260,7 @@
                             </div>
                         </div>
                     </div>
-                </footer>
+                </footer> --}}
             </div>
             <!-- end main content-->
 
@@ -1391,11 +1285,11 @@
 
                 <div class="p-4">
                     <div class="mb-2">
-                        <img src="assets/images/layouts/layout-1.jpg" class="img-thumbnail" alt="layout images">
+                        <img src="assets/images/layouts/layout-1.jpg" class="img-thumbnail" alt="layout images" >
                     </div>
 
                     <div class="form-check form-switch mb-3">
-                        <input class="form-check-input theme-choice" type="checkbox" id="light-mode-switch" checked>
+                        <input class="form-check-input theme-choice" type="checkbox" id="light-mode-switch" >
                         <label class="form-check-label" for="light-mode-switch">Light Mode</label>
                     </div>
     
@@ -1411,7 +1305,7 @@
                         <img src="assets/images/layouts/layout-3.jpg" class="img-thumbnail" alt="layout images">
                     </div>
                     <div class="form-check form-switch mb-3">
-                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch">
+                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" checked>
                         <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
                     </div>
 

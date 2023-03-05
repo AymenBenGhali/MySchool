@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard-profile');
 });
+
+Route::get('tables-editable', function () {
+    return view('tables-editable');
+});
+
+Route::get('add-member', function () {
+    return view('add-member');
+});
+
