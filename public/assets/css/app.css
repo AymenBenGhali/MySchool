@@ -463,22 +463,22 @@ body[data-layout=horizontal] .footer {
 }
 
 .mm-active {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 .mm-active > a {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 .mm-active > a i {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 .mm-active .active {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 .mm-active .active i {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 .mm-active > i {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 
 @media (max-width: 992px) {
@@ -626,7 +626,7 @@ body[data-sidebar=dark] #sidebar-menu ul li a {
 body[data-sidebar=dark] #sidebar-menu ul li a i {
   color: #6a7187;
 }
-body[data-sidebar=dark] #sidebar-menu ul li a:hover {
+body[data-sidebar=dark] #sidebar-menu ul li  {
   color: #ffffff;
 }
 body[data-sidebar=dark] #sidebar-menu ul li a:hover i {
@@ -635,7 +635,7 @@ body[data-sidebar=dark] #sidebar-menu ul li a:hover i {
 body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a {
   color: #79829c;
 }
-body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a:hover {
+body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li  {
   color: #ffffff;
 }
 body[data-sidebar=dark].vertical-collpsed {
@@ -657,28 +657,28 @@ body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu > ul > li
 body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu > ul ul {
   background-color: #2a3042;
 }
-body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active {
+body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul  {
   color: #ffffff !important;
 }
-body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active i {
+body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul {
   color: #ffffff !important;
 }
-body[data-sidebar=dark] .mm-active {
+body[data-sidebar=dark]  {
   color: #ffffff !important;
 }
-body[data-sidebar=dark] .mm-active > a {
+body[data-sidebar=dark]   {
   color: #ffffff !important;
 }
-body[data-sidebar=dark] .mm-active > a i {
+body[data-sidebar=dark]   i {
   color: #ffffff !important;
 }
-body[data-sidebar=dark] .mm-active > i {
+body[data-sidebar=dark]  i {
   color: #ffffff !important;
 }
-body[data-sidebar=dark] .mm-active .active {
+body[data-sidebar=dark]   {
   color: #ffffff !important;
 }
-body[data-sidebar=dark] .mm-active .active i {
+body[data-sidebar=dark]   {
   color: #ffffff !important;
 }
 body[data-sidebar=dark] .menu-title {
@@ -748,16 +748,16 @@ body[data-sidebar=colored] .navbar-brand-box .logo-dark {
 body[data-sidebar=colored] .navbar-brand-box .logo-light {
   display: block;
 }
-body[data-sidebar=colored] .mm-active {
+body[data-sidebar=colored]  {
   color: #fff !important;
 }
-body[data-sidebar=colored] .mm-active > a {
+body[data-sidebar=colored]  {
   color: #fff !important;
 }
-body[data-sidebar=colored] .mm-active > a i {
+body[data-sidebar=colored] {
   color: #fff !important;
 }
-body[data-sidebar=colored] .mm-active > i, body[data-sidebar=colored] .mm-active .active {
+body[data-sidebar=colored] , body[data-sidebar=colored] {
   color: #fff !important;
 }
 body[data-sidebar=colored] #sidebar-menu ul li.menu-title {
@@ -792,19 +792,19 @@ body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu > ul >
   color: #fff;
 }
 body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu ul li ul.sub-menu li a:hover {
-  color: #556ee6;
+  color: #000;
 }
 body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu ul li ul.sub-menu li.mm-active {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu ul li ul.sub-menu li.mm-active > a {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu ul li ul.sub-menu li.mm-active > a i {
-  color: #556ee6 !important;
+  color: #000 !important;
 }
 
 .topnav {
@@ -832,20 +832,20 @@ body[data-sidebar=colored].vertical-collpsed .vertical-menu #sidebar-menu ul li 
   font-size: 15px;
 }
 .topnav .navbar-nav .nav-link:focus, .topnav .navbar-nav .nav-link:hover {
-  color: #556ee6;
+  color: #000;
   background-color: transparent;
 }
 .topnav .navbar-nav .dropdown-item {
   color: #545a6d;
 }
 .topnav .navbar-nav .dropdown-item.active, .topnav .navbar-nav .dropdown-item:hover {
-  color: #556ee6;
+  color: #000;
 }
 .topnav .navbar-nav .nav-item .nav-link.active {
-  color: #556ee6;
+  color: #000;
 }
 .topnav .navbar-nav .dropdown.active > a {
-  color: #556ee6;
+  color: #000;
   background-color: transparent;
 }
 

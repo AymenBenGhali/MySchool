@@ -3,7 +3,7 @@
                 <div class="navbar-header">
                     <div class="d-flex">
                        
-                        <div class="navbar-brand-box" style="background: white">
+                        <div class="navbar-brand-box" >
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
                                     <img src="\assets\images\logo.png" alt="" height="40">
@@ -35,7 +35,7 @@
                             </div>
                         </form>
 
-                        <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
+                        {{-- <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
                             <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                                 <span key="t-megamenu">Mega Menu</span>
                                 <i class="mdi mdi-chevron-down"></i> 
@@ -164,7 +164,7 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <div class="d-flex">
@@ -281,11 +281,11 @@
                         </div>
                              {{-- الإعدادات --}}
                              
-                        <div class="dropdown d-inline-block">
+                        {{-- <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
                                 <i class="bx bx-cog bx-spin"></i>
                             </button>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>

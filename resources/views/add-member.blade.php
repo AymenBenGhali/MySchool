@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" >
+<html lang="ar" >
 
     <head>
         
@@ -16,13 +16,19 @@
 
         <!-- dropzone css -->
         <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
+   <!-- Bootstrap Css -->
+   <link href="assets/css/bootstrap-rtl.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+   <!-- Icons Css -->
+   <link href="assets/css/icons-rtl.min.css" rel="stylesheet" type="text/css" />
+   <!-- App Css-->
+   <link href="assets/css/app-rtl.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
-        <!-- Bootstrap Css -->
-        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+<!-- Bootstrap Css -->
+<link href="assets/css/bootstrap-rtl.min.css.map" id="bootstrap-style" rel="stylesheet" type="text/css" />
+<!-- Icons Css -->
+<link href="assets/css/icons-rtl.min.css.map" rel="stylesheet" type="text/css" />
+<!-- App Css-->
+<link href="assets/css/app-rtl.min.css.map" id="app-style" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -187,7 +193,7 @@
         <!-- END layout-wrapper -->
 
         <!-- Right Sidebar -->
-        <div class="right-bar">
+        {{-- <div class="right-bar">
             <div data-simplebar class="h-100">
                 <div class="rightbar-title d-flex align-items-center px-3 py-4">
             
@@ -196,10 +202,10 @@
                     <a href="javascript:void(0);" class="right-bar-toggle ms-auto">
                         <i class="mdi mdi-close noti-icon"></i>
                     </a>
-                </div>
+                </div> --}}
 
                 <!-- Settings -->
-                <hr class="mt-0" />
+              {{-- <hr class="mt-0" />
                 <h6 class="text-center mb-0">Choose Layouts</h6>
 
                 <div class="p-4">
@@ -224,7 +230,7 @@
                         <img src="assets/images/layouts/layout-3.jpg" class="img-thumbnail" alt="layout images" >
                     </div>
                     <div class="form-check form-switch mb-3">
-                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch">
+                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" checked>
                         <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
                     </div>
 
@@ -239,7 +245,7 @@
             
                 </div>
 
-            </div> <!-- end slimscroll-menu-->
+            </div> <!-- end slimscroll-menu--> --}}
         </div>
         <!-- /Right-bar -->
 
